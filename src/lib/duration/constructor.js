@@ -32,6 +32,8 @@ export function Duration (duration) {
         quarters * 3 +
         years * 12;
 
+    // simulating development
+
     this._data = {};
 
     this._locale = getLocale();
